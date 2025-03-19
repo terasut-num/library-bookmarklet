@@ -1,4 +1,4 @@
-# Primo DOI Search Utility
+# Primo DOI Search Utility (Coming soon!)
 
 The Primo DOI Search Utility is a lightweight JavaScript tool designed to streamline the academic research process. It automatically extracts a Digital Object Identifier (DOI) from a webpage and initiates a Primo search using that DOI. This automation is especially useful for researchers needing quick access to full-text articles through the Primo discovery system.
 
