@@ -126,7 +126,7 @@ This JavaScript code can be used as a bookmarklet so that you can easily activat
 ### Step 1: Use the Bookmarklet Code from the GitHub Repository
 
 - **Access the Code:**  
-  The bookmarklet code is available in my GitHub repository **[library-bookmarklet](https://github.com/yourusername/library-bookmarklet)** under the filename `primo_bookmarkletv1.js`.
+  The bookmarklet code is available in my GitHub repository **[library-bookmarklet](https://github.com/terasut-num/library-bookmarklet)** under the filename `primo_bookmarkletv1.js`.
   
 - **Minification Requirement:**  
   For bookmarklet use, the code should be minified (all on one line without extra spaces or line breaks). You can either use the minified version provided in the repository or use an online minifier to process `primo_bookmarkletv1.js`.
