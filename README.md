@@ -24,7 +24,7 @@ The Primo DOI Search Utility is a lightweight JavaScript tool designed to stream
 ## Introduction
 
 The utility simplifies the process of accessing articles via Primo by:
-- **Automatically extracting DOIs:** Detects DOI from meta tags or from the page content using regex.
+- **Automatically extracting DOIs:** Detects DOI from meta tags or from the page content using regular expressions.
 - **Constructing a Primo search URL:** Appends the extracted DOI to a base Primo URL.
 - **Opening a new browser window:** Displays search results directly to the user.
 
@@ -123,34 +123,47 @@ The project is structured into three main sections:
 
 This JavaScript code can be used as a bookmarklet so that you can easily activate it while browsing any article webpage. Follow these steps to add and use the bookmarklet in your browser:
 
-### Step 1: Use the Bookmarklet Code in my Github repo
+### Step 1: Use the Bookmarklet Code from the GitHub Repository
 
-Note: For bookmarklet use, the code should be minified (all on one line without extra spaces or line breaks). You can use the Bookmarklet Code in my GitHub Repository.
+- **Access the Code:**  
+  The bookmarklet code is available in my GitHub repository **[library-bookmarklet](https://github.com/yourusername/library-bookmarklet)** under the filename `primo_bookmarkletv1.js`.
+  
+- **Minification Requirement:**  
+  For bookmarklet use, the code should be minified (all on one line without extra spaces or line breaks). You can either use the minified version provided in the repository or use an online minifier to process `primo_bookmarkletv1.js`.
 
 ### Step 2: Create a New Bookmark
-1. **In your browser, open the bookmarks manager or the bookmark bar.**
+
+1. **Open the Bookmarks Manager:**  
+   In your browser, access the bookmarks manager or display the bookmark bar.
    
-2. **Create a new bookmark:**
-   - Name: Choose a descriptive name like "Primo DOI Search".
-   - URL/Location: Paste the entire bookmarklet code (starting with javascript:) into the URL field.
-   - Save the bookmark.
+2. **Create a New Bookmark:**  
+   - **Name:** Choose a descriptive name such as "Primo DOI Search".
+   - **URL/Location:** Paste the entire minified bookmarklet code (starting with `javascript:`) into the URL field.
+   - **Save:** Store the new bookmark.
 
 ### Step 3: Using the Bookmarklet
-   - **Navigate to an article page:** When you are on a webpage with an article (or any page that might contain a DOI), simply click the "Primo DOI Search" bookmark.
-   - **Automatic Execution:**
-	The bookmarklet will run the script, attempt to extract the DOI, and if successful, open a new window with the Primo search results.
-   - **Alerts:**
-	If the script cannot find a DOI, an alert will inform you that no DOI was found on the current page.
 
-This method allows you to seamlessly integrate the Primo DOI search functionality into your regular browsing experience, saving time and simplifying your research workflow.
+- **Navigate to an Article Page:**  
+  When you are on a webpage with an article (or any page that might contain a DOI), simply click the "Primo DOI Search" bookmark.
+  
+- **Automatic Execution:**  
+  The bookmarklet will execute the script, attempt to extract the DOI, and if successful, open a new window with the Primo search results.
+  
+- **Alerts:**  
+  If the script cannot find a DOI, an alert will notify you that no DOI was found on the current page.
+
+This approach allows you to integrate the Primo DOI search functionality directly into your regular browsing experience, saving time and streamlining your research workflow.
 
 ---
 
 ## Conclusion
-The Primo DOI Search Utility automates the task of DOI extraction and Primo search initiation, making it an invaluable tool for researchers. Its multi-method approach ensures high reliability, and its modular design supports easy maintenance and future enhancements. By converting the script into a bookmarklet, users can quickly trigger a search from any article webpage with minimal effort.
+
+The Primo DOI Search Utility automates the task of DOI extraction and Primo search initiation, making it an invaluable tool for researchers. Its multi-method approach ensures high reliability, and its modular design supports easy maintenance and future enhancements. By converting the script into a bookmarklet and hosting it in the **library-bookmarklet** repository, users can quickly trigger a search from any article webpage with minimal effort.
 
 ---
+
 ---
+
 # Project II: EZproxy-bookmarklet
 ## How to use this bookmarklet?
 
